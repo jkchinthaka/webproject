@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.card-img-top{
+	width: 400px;
+	height: 250px;
+	align-self: center;
+}
+
+.carousel-item{
+	height: 68vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Make images responsive */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Adjust height on small screens */
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 300px;
+  }
+}
+
+/* Add some padding to sections */
+.container, 
+.container-fluid {
+  padding: 20px;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5 {
+  margin-bottom: 20px; 
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* Style buttons */
+.btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+
+/* Style activity cards */
+.card {
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s;  
+}
+
+.card:hover {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
+
+/* Style carousel */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Add borders */ 
+section {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0; 
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+
